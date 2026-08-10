@@ -1,0 +1,35 @@
+// Build script for the "app" module (the actual Android app).
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.stopwatch'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.stopwatch"
+        minSdk 26        // Android 8.0 and above
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+        encoding 'UTF-8'
+    }
+}
+
+dependencies {
+    // AppCompat: backwards-compatible Material-ish theme and widgets
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}

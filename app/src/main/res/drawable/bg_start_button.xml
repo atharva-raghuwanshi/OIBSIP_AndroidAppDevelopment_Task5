@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Green Start button: turns grey when disabled -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/disabled_bg" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="#33FFFFFF">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/start_green" />
+                    <corners android:radius="12dp" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

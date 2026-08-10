@@ -1,0 +1,5 @@
+// Top-level build file: declares the Android Gradle Plugin version
+// used by all modules in this project.
+plugins {
+    id 'com.android.application' version '8.2.2' apply false
+}

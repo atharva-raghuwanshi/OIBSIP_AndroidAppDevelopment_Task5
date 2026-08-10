@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Stopwatch</string>
+    <string name="subtitle">Elapsed time tracker · millisecond precision</string>
+    <string name="time_initial_hms">00:00:00</string>
+    <string name="time_initial_ms">.000</string>
+    <string name="state_stopped">Stopped</string>
+    <string name="state_running">Running</string>
+    <string name="state_paused">Paused</string>
+    <string name="start">Start</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="lap">Lap</string>
+    <string name="reset">Reset</string>
+    <string name="laps_header">Laps</string>
+    <string name="empty_laps">No laps yet.\nTap Lap while the timer is running.</string>
+</resources>

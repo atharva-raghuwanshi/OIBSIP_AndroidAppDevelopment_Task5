@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foreground of the adaptive launcher icon: a stopwatch -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Crown button on top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,22 h8 a2.5,2.5 0 0 1 2.5,2.5 v3 a2.5,2.5 0 0 1 -2.5,2.5 h-8 a2.5,2.5 0 0 1 -2.5,-2.5 v-3 a2.5,2.5 0 0 1 2.5,-2.5 z" />
+
+    <!-- Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,60 m-19,0 a19,19 0 1,1 38,0 a19,19 0 1,1 -38,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6" />
+
+    <!-- Tick marks -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,45 L54,48 M70,60 L67,60 M54,75 L54,72 M38,60 L41,60"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.5" />
+
+    <!-- Hands -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,60 L54,47 M54,60 L63,55"
+        android:strokeColor="#FFD54F"
+        android:strokeLineCap="round"
+        android:strokeWidth="5" />
+</vector>

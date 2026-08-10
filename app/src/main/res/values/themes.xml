@@ -1,0 +1,10 @@
+<resources>
+    <!-- App theme: light AppCompat theme without the default action bar
+         (we draw our own header), with brand colours. -->
+    <style name="Theme.Stopwatch" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>
